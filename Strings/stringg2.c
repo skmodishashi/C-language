@@ -6,7 +6,7 @@
 int main(){
     char str[40];
     // scanf("%s",str); //only the first word will be considered
-    // scanf("%[^\n]s",str); //entire sentence will be considered but lengthy
+    // scanf("%[^\n]s",str); //entire sentence will be considered but lengthygi
     
     gets(str); //entire sentence will be considered
     
