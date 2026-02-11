@@ -2,10 +2,18 @@
 int main(){
     struct pokemon{  // pokemons character list
         int hp; // health
-        int speed;
+        int speed;            //hp,speed,attack,tier are known as attributes...
         int attack;
-        int tier;    // position
-    };
+        char tier;    // position
+    };  
+
+    // struct pokemon{ 
+    //     int hp; 
+    //     int speed;          
+    //     int attack;
+    //     char tier;    
+    // } pikachu, charizard, mewtwo;  // can also write like this so that character list donot have to mention seprrately...
+
     struct pokemon pikachu;
     pikachu.hp = 50;
     pikachu.attack = 60;
