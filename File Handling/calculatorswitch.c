@@ -7,7 +7,7 @@ int main(){
     int b;
         scanf("%d",&b);
     switch(ch){
-        case '+':
+    case '+':
          printf("%d",a+b);
          break;
     case '-':
