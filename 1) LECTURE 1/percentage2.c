@@ -1,6 +1,5 @@
 #include<stdio.h>
 int main(){
-
     float m1 = 35 ; //maths marks
     float m2 = 39 ; // physics marks
     float m3 = 32 ; // chem marks

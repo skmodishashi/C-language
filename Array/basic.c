@@ -11,7 +11,7 @@ int main(){
     
     char Arr[3]={'a','*','b'};
     printf("\n%c",Arr[2]);
-    loat arr[3]={1.0,4.5,7.9};
+    float arr[3]={1.0,4.5,7.9};
     printf("\n%f",arr[2]);
     
     return 0;

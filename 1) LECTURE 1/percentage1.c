@@ -7,7 +7,7 @@ int main(){
     float m3 = 82 ; // chem marks
     float m4 = 87 ; // english marks
     float m5 = 98 ; // economics marks
-    float p = (m1+m2+m3+m4+m5)/5;
+    float p = (m1+m2+m3+m4+m5)*100/5;
     printf ("percentage of five subject : %f",p);
 
     return 0 ; 
