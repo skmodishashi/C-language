@@ -2,12 +2,12 @@
 #include<limits.h>
 int main(){
     int arr[7]={7,4,5,9,8,2,1};
-    int n=7;   
+    int n=sizeof(arr)/sizeof(arr[0]);   
     printf("Unsorted array : \n");               
     for(int i=0;i<n;i++){
       printf("%d ",arr[i]);
     }
-
+// Selection Sort
     for(int i=0;i<n-1;i++){
         int min = INT_MAX;
         int minidx = -1;
